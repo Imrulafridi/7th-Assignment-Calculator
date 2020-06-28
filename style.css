@@ -1,0 +1,36 @@
+.main {
+  width: 10.8rem;
+  border: 2px solid sandybrown;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+
+
+#result{
+  border: 1px solid salmon;
+  height: 30px;
+  padding: 5px;
+}
+
+
+.clr {
+  width: 100%;
+  border: 1px solid tan;
+  background-color: wheat;
+  color: dimgray; 
+}
+
+.btn-1{
+  width: 100%;
+  border: 1px solid tan;
+  background-color: wheat;
+  color: dimgray; 
+}
+
+.btn-2{
+  width: 100%;
+  border: 1px solid tan;
+  background-color: wheat;
+  color: dimgray; 
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator Assignment</title>
+</head>
+<body>
+
+  <table class="main">
+    <th  colspan="5">
+      <input type="text" name="result" id="result">
+    </th>
+    <tr>
+      <td colspan="4">
+        <button class="clr" onclick="clearResult()">Clear</button>
+      </td>
+    </tr>
+    <tr class="firstrow">
+    <td>
+      <button class="btn-1" onclick="getnumber('7')">7</button>
+    </td>
+    <td>
+      <button class="btn-1" onclick="getnumber('8')">8</button>
+    </td>
+    <td>
+      <button class="btn-1" onclick="getnumber('9')">9</button>
+    </td>
+    <td>
+      <button class="btn-1" onclick="getnumber('*')">x</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button class="btn-1" onclick="getnumber('4')">4</button>
+    </td>
+    <td>
+      <button class="btn-1" onclick="getnumber('5')">5</button>
+    </td>
+    <td>
+      <button class="btn-1" onclick="getnumber('6')">6</button>
+    </td>
+    <td>
+      <button class="btn-1" onclick="getnumber('-')">-</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button class="btn-1" onclick="getnumber('1')">1</button>
+    </td>
+    <td>
+      <button class="btn-1" onclick="getnumber('2')">2</button>
+    </td>
+    <td>
+      <button class="btn-1" onclick="getnumber('3')">3</button>
+    </td>
+    <td>
+      <button class="btn-1" onclick="getnumber('+')">+</button>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1">
+    <button class="btn-1" onclick="getnumber('0')">0</button>
+  </td>
+  <td colspan="2">
+    <button class="btn-2" onclick="getResult()">=</button>
+  </td>
+  <td>
+    <button class="btn-1" onclick="getnumber('/')">/</button>
+  </td>
+  </tr>
+  </table>
+  
+</body>
+<script src="app.js"></script>
+</html>
